@@ -10,6 +10,11 @@ class ShowMasrafi extends StatefulWidget {
 class _ShowMasrafiState extends State<ShowMasrafi> {
   @override
   Widget build(BuildContext context) {
-    return  Scaffold();
+    return  Scaffold(
+    appBar: AppBar(
+    title: const Text("App Bar"),
+    ),
+    body: const Text("Masrafi"),
+    );
   }
 }
