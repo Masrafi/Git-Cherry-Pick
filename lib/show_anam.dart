@@ -10,6 +10,11 @@ class ShowAnam extends StatefulWidget {
 class _ShowAnamState extends State<ShowAnam> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return  Scaffold(
+    appBar: AppBar(
+    title: const Text("Anam"),
+    ),
+    body: const Text('This is for check'),
+    );
   }
 }
